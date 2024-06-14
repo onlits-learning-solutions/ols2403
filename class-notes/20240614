@@ -1,0 +1,103 @@
+
+	C - Programming
+	
+	General
+	
+	- Full Stack Web Developer
+	- AI, ML
+	
+	- Computer Fundamental
+	- Programming	-	speaking - Language
+		The art of writing computer programs.
+		
+	
+	Evolution of C:
+		
+		
+	Hardware
+		Physical component of a computer.
+	
+	Software
+		A set of programs
+		
+		- System Software (OS, Compiler, Interpreter etc)
+		- Application Software
+			MS Word, MS PowerPoint
+		- Utility Software
+			Antivirus
+		
+		Operating System:
+			Software that enables us to operate and maintain computer.
+			- Windows, Linux, Android, MacOS, IOS
+			- DOS, Unix
+			
+		1972
+		
+		Bell Labs	-	AT&T
+		
+		Ken Thompson	-	An OS for PDP (Unix) - B Language
+		Dennis Ritche	-	C Language	
+		
+		Primarily C was developed for writing System Software.
+		
+		C++, Java, C#, PHP, python
+		
+		Paradigm:
+			- General English: Pattern
+			- Principle for writing programs
+			
+		Structured programming: (Algorithm)
+			C, Pascal, Fortran
+		
+		Object Oriented Programming: (Design)
+			C++, Java, C#
+		
+		Multi-paradigm:
+			Python, PHP
+			
+	Why learn C?
+		- To understand the basics of programming.
+		
+	Program/Algorithm to wash clothes:
+		1. Pour some detergent in a bucket.
+		2. Fill the 3/4th of bucket with water.
+		3. Shake the water to produce foam.
+		4. Soak clothes in the soap water for 30 minutes.
+		5. Wash the clothes
+		6. Rinse them.
+		7. Dry them on a washing line.
+		
+	Why do we write program?
+		- To train computer on a new skill.
+		
+	General computer does data processing.
+	
+	10 + 20	= 30
+	
+	Write a program in C to accept two integer and find their sum.
+	
+	Analysis
+	
+	Phylosophy
+		Why, When, Where
+		
+	I	-	Input - standard - keyboard
+	P	-	Processing
+	O	-	Output	-	standard - monitor
+	
+	
+	Algorithm: To accept two integers and find their sum.
+	Step 1: Start
+	Step 2: Read a, b
+	Step 3: c = a + b
+	Step 4: Print c
+	Step 5: Stop
+	
+	
+	Arithmetic (specific) vs Algebra (generalized)
+	
+	C & Python
+	
+	DSA - Data Structures & Algorithm
+	
+	
