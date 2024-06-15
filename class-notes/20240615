@@ -1,0 +1,45 @@
+
+	Algorithm: To accept two 					C									Python
+	integers and find their sum.
+	Step 1: Start																	a = input()
+	Step 2: Read a, b							scanf("%d%d", &a, &b);				b = input()
+	Step 3: c = a + b							c = a + b;							c = a + b
+	Step 4: Print c								printf("%d", c);					print(c)
+	Step 5: Stop
+	
+	
+	Letter										scanf()/printf()	->	function
+	Word										%d -> Format string (a group of characters)	-> decimal integer
+	, . ""	-> Punctuation
+	
+	
+	"14"
+	14
+	
+	
+	Steps to develop a program in c language:
+		1. Type & Save your program on a computer	-> Text Editor
+		2. Compile -> Compiler (Translates code from C to machine language)
+		3. Run/Execute the translated program to test/verify.
+		
+		C has only 32 keywords.
+		
+		
+	Android vs IOS
+	Home food or Restaurant food
+	
+	
+	Programming in ANSI C	-	E. Balagurusamy
+	
+	Z	-	zed, zee
+	
+	either
+	schedule	
+	
+	ISI	-	Indian Standards Institute
+	ANSI -	American National Standards Institute	1989
+	ISO - International Standards Organisation		1990
+	
+	
+	
+	
