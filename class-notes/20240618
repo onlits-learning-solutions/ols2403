@@ -1,0 +1,58 @@
+	
+	Algorithm: H(a)
+		Step 1: Start
+		Step 2: Read bs									scanf("%d", &bs);
+		Step 3: da = bs * 40/100						da = bs * 40/100;
+		Step 4: hra = bs * 20/100						hra = bs * 20/100;
+		Step 5: gs = bs + da + hra						gs = bs + da + hra	
+		Step 6: Print gs								printf("%d", gs);
+		Step 7: Stop
+	
+	
+	11/2	=	5 (quotient)
+	11 % 2	=	1 (remainder)
+	
+	a	- variable		'a' - character constant		"a"	-	string constant
+	bs	- variable		'bs' - invalid					"bs"-	string constant
+	
+	5	-	constant
+	
+	int x = 10;			-	initialization
+	scanf("%d", &x);
+	
+	1,000	X
+	
+	GCC
+	MinGW
+	
+	int - 32-bit	-	01000001 01000001 01000001 01000001			
+	
+	Turbo C++
+	int - 16-bit
+	
+	BCD		-	4-bit
+	EBCDIC	-	8-bit
+	ASCII	-	8-bit
+	Unicode	-	8-bit/16-bit
+	
+	A = 65 = 01000001
+	
+	1 10 100 1000
+	
+	2001	-	PC		-	32-bit
+	2007	-	laptop	-	32-bit
+	2016	-	laptop	-	64-bit
+	2024	-	laptop	-	64-bit
+	
+	Algorithm: H(b)
+	Step 1: Start
+	Step 2: Read km
+	Step 3: m = km * 1000;
+	Step 4: ft = m * 3.28;
+	Step 5: in = ft * 12;
+	Step 6: cm = m * 100;
+	Step 7: Print m, ft, in, cm
+	Step 8: Stop
+	
+	Floating Point Number
+	

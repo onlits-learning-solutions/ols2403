@@ -1,0 +1,36 @@
+	
+	I	-	Input
+	P	-	Processing
+	O	-	Output
+	
+	Machine Learning
+	Deep Learning
+	
+	1. Opening (Pattern)
+	2. Middle Game (Tactics & Strategy)
+	3. End Game (Pattern)
+	
+	Validate
+	
+	Verbose	-	Using too many words
+	Concise -	To the point
+	
+	Nomenclature
+		Homo sapiens
+	
+	Phyllum	-	Chordata
+	
+	Algorithm: Aim ...
+			   Here l represents length of rectangle, b breath...
+	Step 1: Start
+	Step 2: Read l, b
+	Step 3: Read r
+	Step 4: ar = l * b
+	Step 5: p = 2 * (l + b)
+	Step 6: ac = 3.14 * r * r
+	Step 7: c = 2 * 3.14 * r
+	Step 8: Print ar, p, ac, c
+	Step 9: Stop
+	
+	
+	C character set
