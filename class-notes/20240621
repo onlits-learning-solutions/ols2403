@@ -1,0 +1,89 @@
+Algorithm: H (g)
+	Step 1: Start
+	Step 2: Read n
+	Step 3: n
+	Step 4: d = n % 10
+	Step 5: sum = d
+	Step 6: n = n / 10
+
+
+	int n = 11;
+	
+	n / 2	= 	5 (quotient)
+	n % 2	=	1 (remainder)
+	
+	11? even or odd
+	
+	if (n % 2 == 0)
+	
+	
+	88888	=	40
+	12345	=	15	
+	87459	=	33
+	
+	n = 87459
+	d = n % 10	=	9
+	sum = d		=	9
+	n = n / 10	=	8745
+	
+	d = n % 10	=	5
+	sum = sum + d	= 14
+	n = n / 10	=	874
+	
+	d = n % 10 = 4
+	sum = sum + d	=	18
+	n = n / 10 = 	87
+	
+	d = n % 10 = 7
+	sum = sum + d	=	25
+	n = n / 10	= 8
+	
+	sum = sum + n	=	33
+	
+	
+	
+	
+	
+
+	Total			-	Rs.  888.00
+	Cash Tendered	-	Rs. 1000.00
+	---------------------------------
+						Rs - 112.00							
+	---------------------------------
+	
+	100 X 1	=	100
+	10	X 1	=	 10
+	2	X 1	=	  2
+	---------------
+				112
+	---------------
+	
+	
+	560
+	
+	100 X 5	=	100
+	50	X 1 =	 50
+	10	X 1 =	 10
+	
+	Alogrithm: H(k)
+		Step 1: Start
+		Step 2: Read amount
+		Step 3: hundreds = amount / 100
+		Step 4: rest = amount % 100
+		Step 5: fifties = rest / 50
+		Step 6: rest = rest % 50
+		Step 7: tens = rest / 10
+		Step 8: Print hundreds, fifties, tens
+		Step 9: Stop
+	
+	
+	
+	
+	hundreds 	= 560 / 100	=	5
+	rest 		= 560 % 100	=	60
+	fifties		=  60 / 50	=	1
+	rest		=  60 % 50  =	10
+	tens		=  10 / 10	=	1	
+	Validation	-	Ensuring that valid input is received.
+	
+	

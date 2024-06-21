@@ -1,0 +1,39 @@
+
+	CUI/CLI - Character User Interface/Command Line Interface
+	GUI		- Graphical User Interface
+	
+	Types of Computer:
+		1. Micro Computer (Desktop, laptop, tablet, mobile)
+		2. Mini Computer
+		3. Mainframe Computer
+		4. Super Computer
+		
+	Algorithm: H(f)
+	Step 1: Start
+	Step 2: Read c, d
+	Step 3: t = c
+	Step 4: c = d
+	Step 5: d = t
+	Step 6: Print c, d
+	Step 7: Stop
+	
+	
+	let c = 10
+	let d = 5
+	
+	t = c
+	c = d
+	d = t
+	
+	case 1:
+	n = 54321
+	s = 5 + 4 + 3 + 2 + 1 = 15
+	
+	case 2:
+	n = 99999
+	S = 9 + 9 + 9 + 9 + 9	=	45
+	
+	int - 2,000,000,000
+	
+	Programming in ANSI C - E. Balagurusamy
+	
