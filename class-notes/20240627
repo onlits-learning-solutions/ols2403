@@ -1,0 +1,30 @@
+
+	Type declaration:
+		int a, b, c;
+		float x, y, z;
+		
+	Arithmetic instruction:
+		c = a + b;
+		c = 5/9 * (F-32);
+	
+	Control Instruction:
+		- Sequence Control
+		- Selection or Decision Control
+		- Repetition or Loop Control
+		- Case Control
+		
+	Algorithm: To accept a number and find whether it is even or odd
+	
+	Pseudocode:
+	
+	Step 1: Start
+	Step 2: Read n
+	Step 3: If (n mod 2 = 0)
+				Print "Even"
+			Else
+				Print "Odd"
+	Step 4: Stop
+	
+	A pictures is worth a thousand words.
+	
+	Flowchart
