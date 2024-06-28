@@ -1,0 +1,45 @@
+
+	4, 8, 12, 16, ... , 2020, 2024
+	2001
+	
+	
+	1. Non century years: year % 4 == 0 and year % 100 != 0
+	
+	2. Century year:	   year % 400 == 0
+	
+	1992, 1996	---	1
+	
+	1700 X		----1
+	
+	
+	1. WAP to accept marks scored by a student in a test. And find
+	   whether the student has passed or failed if the pass marks is
+	   40.
+	   
+	2. WAP to accept age of two students and display the greater one.
+	
+	3. WAP to accept age of two student and display them in ascending
+	   order.
+	
+	4. WAP to accept length and breadth of a rectangle and radius of
+	   circle. Find their area. Print the name and area of the 
+	   shape whose area is larger.
+	   
+	5. WAP to accept the price of a mobile phone and a person's budget
+	   for buying a mobile phone. Determine whether the person can buy
+	   the mobile phone or not.
+	
+	6. WAP to accept the balance in a bank account and the amount to be
+	   withdrawn from account. Display "Withdrawal successful" is the 
+	   account has enough balance else display "Transaction declined".
+	
+	Step 1: Start
+	Step 2: Read balance, amount
+	Step 3: If (amount <= balance)
+				Print "Withdrawal Successful!"
+			Else
+				Print "Transaction Declined"
+	Step 4. Stop
+	
+	
+	

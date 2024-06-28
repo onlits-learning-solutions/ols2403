@@ -28,3 +28,8 @@
 	A pictures is worth a thousand words.
 	
 	Flowchart
+	
+	80 A		-	if(marks >= 80)
+	60 B		-	else if(marks >=60)
+	40 C		-	else if(marks >= 40)
+	Below 40 D	-	else
