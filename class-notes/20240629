@@ -1,0 +1,45 @@
+
+	WAP to print your name 10 times.
+	
+	simplicity
+	simplism	-	over-simplify
+	
+	Basic type of data:
+		integer, real, character, character string
+		
+	
+	int a=10, b=20, c;
+	c = a + b;
+	
+	date d1(2024, 02, 13), fsd; //here date is a user-defined data type
+	
+	fsd = d1 + 30;	// not supported in C but supported in C++ via
+					// operator overloading
+	
+	
+	c = a + b;	//c = -10
+	
+	Complexity
+		O(1)	-	constant
+		
+		
+	Iteration/loop:
+		1. While
+		2. Do-while
+		3. For
+		
+	for(initialization, condition, increment)
+	{
+	
+	}
+	
+	
+	1. WAP to print the first n natural numbers.
+	2. WAP to print first n even numbers.
+	3. WAP to print first n odd numbers.
+	4. WAP to display first n multiples of a number.
+	5. WAP to display factors of a number.
+	6. WAP to display all integers divisible by 7 between 1 and 100.
+	
+	
+	
