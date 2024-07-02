@@ -1,0 +1,14 @@
+
+	Natural Number
+	Even Number
+	Odd Number
+	
+	Factorial
+		5! = 5 x 4 x 3 x 2 x 1			=	120
+		7! = 7 x 6 x 5 x 4 x 3 x 2 x 1	=	5040
+		
+		for(i=1; i<=n; i++)
+				or
+		for(i=n; i>=1; i--)
+		
+	1000
