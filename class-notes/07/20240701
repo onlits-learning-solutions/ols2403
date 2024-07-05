@@ -12,3 +12,34 @@
 		for(i=n; i>=1; i--)
 		
 	1000
+	
+	1. Simple
+	2. Decision (if-else)
+	3. Loop
+	
+	4. Array
+	5. Function
+	6. Pointer
+	7. Structure
+	
+	Enter a number: 5
+	The factorial of 5 is 120.
+	
+	fact = fact * i
+		 = fact
+		 
+	Q. What is the default value of a variable in c?
+	A. Garbage
+	
+	n * 1	= n
+	n + 0	= n
+	
+	int - 16-bit	=	2^(16-1)	=	-32768 to 32767
+	int - 32-bit	=	2^(32-1)	=	
+	
+	2^15	=	32768
+	2^16	=	65536
+	
+	2^31	=	2180000000
+	2^32	=	4280000000
+	

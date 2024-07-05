@@ -1,0 +1,34 @@
+
+	Primary Memory
+		- RAM (Temporary)
+		- ROM (Read-only)
+	Secondary Memory
+		- Tapes (Removable)
+		- Floppy Disk (Removable)
+		- Hard disk (Fixed)
+		- CD-ROM (Removable)
+		- Flash Memory (drive, card) (Removable)
+		- SSD (Solid State Drive) (Fixed)
+	int a;
+	
+	Primary Memory
+		- Brain (Temporary)
+	Secondary Memory
+		- Books, Notebooks
+		
+		
+	BASIC: Beginners AllPurpose Symbolic Instruction Code
+	
+	Letter is composed in a software class word processor.
+	
+	Assignment
+	Project Report
+	
+	MS Word
+	MS Excel
+	MS PowerPoint
+	
+	1. WAP to accept total number of apples and number of students
+	   between whom the apples are to be distributed. Find the 
+	   number of apples that is to be distributed equally among
+	   the students.
