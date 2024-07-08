@@ -1,0 +1,21 @@
+
+	Hynnix
+	Crucial
+	Simmtronics
+	
+	2 raised to the power 3 is 8.
+	
+	
+	A = P * (1 + r/n)^nt
+	
+	CI = P * (1 + r/n)^nt - P
+	
+	ci = p * pow((1 + r/n), (n*t)) - p;
+	
+	
+	p = 100
+	r = 10
+	t = 2
+	
+	
+	Financial Accounting

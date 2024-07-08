@@ -32,3 +32,18 @@
 	   between whom the apples are to be distributed. Find the 
 	   number of apples that is to be distributed equally among
 	   the students.
+	   
+	2. WAP a program to accept two integers and display them in 
+	   ascending order.
+	 
+	3. WAP a program to accept three integers and display them in
+	   ascending order.
+	   
+	4. WAP to accept marks scored by a student in any three subjects.
+	   Find his total marks obtained and percentage of marks. Also
+	   find whether the student has passed or failed if the pass
+	   marks percentage is 40%.
+	   
+	5. WAP to accept three integers and display the greatest one.
+	
+	6. WAP to accept an integer and display its square.
