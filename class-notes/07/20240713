@@ -1,0 +1,43 @@
+
+	WAP to accept an integer in the range 1 to 7 and display the
+	day name corresponding to the integer.
+	
+	WAP to accept marks scored in a test by a student and display
+	his grade based on data provided below:
+	marks is greater than 80	-	A
+	marks is greater than 60	-	B
+	marks is greater than 40	-	C
+	marks is less than 40		-	F
+	
+	
+	
+	// Turbo C++
+	#include <stdio.h>
+	#include <conio.h>
+	void main()
+	{
+		clrscr();
+		
+		getch();
+	}
+	
+	1989
+	
+	int main()
+	
+	int main(void)
+	
+	1. Start
+	2. Read i
+	3. if (i=1)
+		Print "Monday"
+	   else if (i=2)
+	   	Print "Tuesday"
+	   	
+	Switch-case
+	
+	3! = 6
+	4! = 24
+	5! = 120
+	
+	
