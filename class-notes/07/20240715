@@ -1,0 +1,46 @@
+
+	Boolean
+	
+	10
+	12
+	Graduate
+	
+	10% -	Knowledge
+	90% -	Common Sense
+	
+	90%	-	Knowledge
+	10%	-	Common Sense
+	
+	Programming Logic & Technique
+	
+	5! = 5 x 4 x 3 x 2 x 1
+	
+	a x b = b x a
+	
+	fact = fact * i;
+	
+	iteration 1:
+		Entry			Exit
+		i=5				i=4
+		fact=1			fact=5
+	iteration 2:
+		i=4				i=3
+		fact=5			fact=20
+	iteration 3:
+		i=3				i=2
+		fact=20			fact=60
+	iteration 4:
+		i=2				i=1
+		fact=60			fact=120
+	iteration 5:
+		i=1				i=0
+		fact=120		fact=120
+
+		
+	n * 1	= n
+	
+	n + 0	= n
+	
+	NPTEL	=	Govt. of India + IITs and others
+	
+	

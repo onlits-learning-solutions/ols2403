@@ -1,13 +1,13 @@
 #include <stdio.h>
-int main(void)
+int main(int argc, char const *argv[])
 {
-    long num, i, fact = 1;
+    int n, i, fact = 1;
     printf("Enter a number: ");
-    scanf("%ld", &num);
-    for (i = num; i >= 1; i--)
+    scanf("%d", &n);
+    for (i = n; i >= 1; i--)
     {
-        fact *= i; // fact = fact * i
+        fact *= i; // fact = fact * i;
     }
-    printf("The factorial of %ld is %ld.\n", num, fact);
+    printf("%d! = %d\n", n, fact);
     return 0;
 }
