@@ -1,0 +1,56 @@
+
+	ANSI C
+	
+	integrity
+		- National Integrity (Oneness)
+		
+	DBMS
+		Entity Integrity (Correctness/Purety)
+		
+	Isos - Equal
+	
+	#include <stdio.h>
+	#include <conio.h>
+	
+	void main()
+	{
+		clrscr()
+		
+		getch()
+	}
+
+	WAP to find the factors of number.	
+	WAP to accept a number and find whether the number is prime or
+	not.
+	
+	1. Start
+	2. Read n
+	3. Find the factor of the given number
+	4. If the factors are exactly two then "prime" else "not prime"
+	
+	
+	for(i=1; i<=n; i++)
+	{
+		if(n%i==0)
+		{
+			//printf("%d\n", i);
+			fact++;
+		}
+	}
+	
+	if(fact==2) printf("Prime");
+	else printf("Not Prime");
+	
+	
+	
+	10 % 1	=	0	true		1
+	10 % 2	=	0	true		2
+	10 % 3	=	0	false
+	10 % 4	=	0	false
+	10 % 5	=	0	true		5
+	10 % 6	=	0	false
+	10 % 7	=	0	false
+	10 % 8	=	0	false
+	10 % 9	=	0	false
+	10 % 10 =	0	true		10
+	
