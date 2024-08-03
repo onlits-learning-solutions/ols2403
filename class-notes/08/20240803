@@ -1,0 +1,46 @@
+
+	Simple If
+	If-Else
+	Nested If-Else
+	If-ElseIf ladder
+	
+	if()
+	{
+		if()
+		{
+		
+		}
+	}
+	else
+	{
+		if()
+		{
+		
+		}
+	}
+	
+	!(x&&y||!z)
+	!x||!y&&z
+	
+	
+	x&&y = m
+	!z	=  n
+	m||n = o
+	!o = ans
+	
+	&&
+	f	f	f
+	f	t	f
+	t	f	
+	
+	
+	Dangling Else Problem
+	
+	1
+	2 3
+	
+	if(1)	-	true
+	if(0)	-	false
+	
+	while(1)	//creates an infinite loop
+	

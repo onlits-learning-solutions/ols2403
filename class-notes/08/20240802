@@ -1,0 +1,21 @@
+	10				-	Integer							-	%d, %i
+	10.5			-	Single precision floating point	-	%f
+	Anuj Kashyap	-	String (A set of characters)	-	%s, %[^\n]
+	
+	
+	Ravi Kumar	-	150	* 0.80	=	120
+	Gaurav Singh -	250
+					200 * 0.80	=	160
+					50	* 0.90	=	 45
+								-------
+									205
+								-------
+	Seema Kumari-	405
+					200 * 0.80	=	160
+					100 * 0.90	=	 90
+					105 * 1.0	=	105
+								---------
+									355
+								---------
+								
+	WORA: Write Once Run Anywhere
