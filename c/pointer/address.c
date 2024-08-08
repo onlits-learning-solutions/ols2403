@@ -6,3 +6,7 @@ int main(void)
     printf("The address of a is %p.\n", &a);
     return 0;
 }
+
+/*
+Time Complexity     -   O(1)
+*/
