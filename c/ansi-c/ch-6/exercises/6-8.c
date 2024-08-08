@@ -26,7 +26,7 @@ int main(void)
         if (purchase >= 0 && purchase <= 100)
             discount = purchase * 0.05F;
         else if (purchase <= 200)
-            discount = purchase * 0.075F;
+            discount = purchase * 0.075F;       //discount = purchase * 7.5F/100.0F;
         else if (purchase <= 300)
             discount = purchase * 0.1F;
         else if (purchase > 300)

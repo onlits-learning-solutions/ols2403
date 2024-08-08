@@ -1,0 +1,30 @@
+
+	if(num < 0)
+		num = num * -1;
+		
+	Computer Codes
+		Binary digit	-	0 and 1		-	Raw binary
+		
+		
+		1	=	1
+		2	=	10
+		
+		BCD	-	Binary Coded Decimal
+
+----------------------------------------------------------------
+		1. Decimal Number System	(10 - digits)
+		2. Binary Number System		(0 and 1)
+		3. Octal Number System		(8 - digits)
+		4. Hexa-decimal Number System (16 - digits)
+			0-9, a=10, b, c, d, e, f=15
+----------------------------------------------------------------
+		5. Duodenal Number System	-	12 digits
+		
+		1 year = 12 month
+		2 12 hour slot
+		
+	DOS	-	Dirty Operating System
+	
+	MS-DOS	-	Microsoft Disk Operating System
+	
+	
