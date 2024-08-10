@@ -1,0 +1,28 @@
+
+	BCD	-	Binary Coded Decimal	-	4-bit code
+	
+	0-9
+	
+	Decimal		Raw Binary		BCD
+	0		-	0				0000
+	1		-	1				0001
+	2		-	10				0010
+	3		-	11				0011
+	4		-	100				0100
+	5		-	101				0101
+	6		-	110				0110
+	7		-	111				0111
+	8		-	1000			1000
+	9		-	1001			1001
+	
+	
+	2^4	=	16
+	
+	ASCII - 7-bit	-	2^7	=	128
+	
+	A	-	65	-	1000001
+	B	-	66	-	1000010
+	
+	ASCII	-	American Standard Code for Information Interchange
+	
+	
