@@ -2,7 +2,7 @@
 int main(void)
 {
     int i;
-    for (i=1; i<=100; i++)       // i++  -> i = i + 1
+    for (i=1; i<=10; i++)       // i++  -> i = i + 1
     {
         printf("%d. Anuj Kashyap\n", i);
     }

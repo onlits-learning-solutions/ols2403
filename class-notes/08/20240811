@@ -1,0 +1,44 @@
+
+	Array: A collection of similar element
+	
+	int a, b, c;	//stack
+	
+	scanf("%d", &a);
+	
+	DS is a particular organisation of data. Data is organised so
+	that it can be stored and processed efficiently.
+	
+	
+	LIFO	-	Last In First Out
+	
+	Queue	-	FIFO	-	First In First Out
+	
+	WAP to accept a name and a number 'n'. Print the name n-times. 
+	
+	Loop	-	Iteration
+	
+	
+	for(i=1; i<=n; i++)
+	
+	i=1		=	Initialization
+	i<=n	=	Condition/Logical Test
+	i++		=	Increment
+	
+	
+	5!	=	5 x 4 x 3 x 2 x 1
+			1 x 2 x 3 x 4 x 5
+			
+		n = 5;
+		
+		for(i = n; i>=1; i--)
+		
+		or
+		
+		for(i=1; i<=n; i++)
+		
+		
+		BODMAS
+		
+		x = a * (b / c)
+		
+		
