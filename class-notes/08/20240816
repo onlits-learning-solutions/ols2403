@@ -1,0 +1,19 @@
+
+	12345
+	
+	54321
+	
+	12345 % 10	=	5
+	org = org / 10
+	1234 % 10	= 	4
+	
+	C Character Set
+	
+	WAP to read a number and find whether it is a pallindrome or not.
+	
+	WAP to read a string and find whether it is a pallindrome or not.
+	
+	
+	basic_pay
+	
+	WAP to read three integers and arrange them in ascending order.
