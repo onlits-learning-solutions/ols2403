@@ -8,6 +8,8 @@ int main(void)
         printf("Capital Letter\n");
     else if (ch >= 97 && ch <= 122)
         printf("Small Letter\n");
+    else if (ch >= 48 && ch <= 57)
+        printf("Digit\n");
     else if ((ch >= 0 && ch <= 47) || (ch >= 58 && ch <= 64 && ch >= 91 && ch <= 96 || ch >= 123 && ch <= 127))
         printf("Special Symbols\n");
     else

@@ -1,0 +1,54 @@
+
+	if(username is correct)
+	{
+		if(password is correct)
+		{
+			print("Login")
+		}
+		else
+		{
+			print("Login unsuccessful - Password wrong")
+		}
+	}	
+	else
+	{
+		print("Login unsuccessful - user not found")
+	}
+	
+	
+	if(n%2==0)
+		printf("Even");
+	else
+		printf("Odd");
+		
+	conditional operator -	?:
+	
+	n%2==0?printf("Even");:printf("Odd");
+	
+	Direct approach		-	Use
+	Indirect approach	-	
+	
+	Unary		-	takes one operand
+	Binary		-	takes two operands
+	Ternary		-	takes three operands (?:)
+	
+	c = a + b
+	i++ or ++i
+	
+	int main(void)
+	{
+		int a;
+		if(cond-1) 
+		{
+			if()
+			{
+				printf("Enter a number: "); scanf("%d", &a);
+			}
+		else
+		{
+			printf();
+		}
+		}
+	
+	}
+	
