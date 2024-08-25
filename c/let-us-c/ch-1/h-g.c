@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main(void)
 {
-    int n;
+    int number, digit, reverse;
     printf("Enter a 5-digit number: ");
-    scanf("%d", &n);
+    scanf("%d", &number);
+
+    digit = number % 10;
+    reverse = digit;
 }
