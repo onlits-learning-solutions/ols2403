@@ -1,0 +1,49 @@
+
+	Loop	-	repeatition (iteration)
+	
+	while		(When the times to repeat is not known)
+	do-while	(When the times to repeat is not known)
+	
+	for (When the times to repeat is known)
+	-----------------
+	break
+	continue
+	
+	
+	WAP to display factors of the given number.
+	or
+	WAP to read a number and display its factors.
+	
+	
+	10 = 1, 2, 5, 10
+	
+	n = 1, ...., n
+	
+	int n, i;
+	
+	printf("Enter a number: ");
+	scanf("%d", &n);
+	
+	for(i=1; i<=n; i++)
+	{
+		if (n % i == 0)
+		{
+			printf("%d\n", i);
+		}
+	}
+	
+	1. WAP to read a number and display its first 10 multiples.
+	   2 = 2, 4, 6, 8, 10, 12, 14, 16, 18, 20.
+	2. WAP to read a number and display its multiplication table.
+	3. WAP to read a number and find whether it is prime number or not.
+	4. WAP to find the sum of first n natural number.
+	5. WAP to read a number and display its binary equivalent.
+	
+	
+	1. Analysis
+	2. Design
+	3. Coding
+	4. Testing
+	-------------
+	
+
