@@ -1,0 +1,40 @@
+
+	1 (lb, low) to 100 (ub, high)
+	
+	Max 7 attempts
+	
+	21
+	
+	mid = (low + high)/2	(1 + 100)/2	= 50.5	= 50
+	
+	50	-	n
+	50 high -y 
+	high = mid - 1
+	mid = (1 + 49)/2	=	25
+	25 - n
+	25 high - y
+	mid = (1 + 24)/2	=	12
+	12 - n
+	12 high - n
+	mid = (13 + 24)/2	=	18
+	18 - n
+	18 high - n
+	mid = (19 + 24)/2	=	21
+	21 - n
+	-------------------------------
+	21 high - n
+	
+	mid = (22 + 24) / 2	=	13
+	
+	mid (
+
+	convention
+	
+	Analyse an Multi-Level Marketing System
+	
+	while(low <= high)
+	{
+		mid = ?;
+	}
+	
+	
