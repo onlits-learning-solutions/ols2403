@@ -7,7 +7,7 @@ int main(void)
     getchar();
     mid = (low + high) / 2;
     printf("Is the number %d (y/n)? ", mid);
-    scanf("%c", &response);
+    response = getchar();
     if (response == 'y')
     {
         printf("Wow! I have guessed your number in %d attempt(s).\n", attempt);

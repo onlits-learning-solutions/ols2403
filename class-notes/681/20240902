@@ -1,0 +1,22 @@
+
+	printf("Enter a character: ");
+	ch = getchar();
+	putchar(ch);
+	
+	scanf("%s")
+	
+	Anuj\0
+	Avinash\0
+	
+	while(name[i] != '\0')	//Entry-controlled loop
+	{
+	
+	}
+	
+	do	
+	{
+	
+	}
+	while(name[i] != '\0');	//Exit-controlled loop
+	
+	0,1,1,2,3,5
