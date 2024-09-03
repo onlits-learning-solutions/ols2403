@@ -1,0 +1,36 @@
+
+
+	for(i=1; i<100; i++)
+	{
+		if()
+		{
+			break;
+		} 
+		else
+		{
+			continue;	
+		}
+		
+		
+		
+	}
+	
+	return 0;
+	
+	
+	123
+	132
+	213
+	231
+	321
+	312
+	
+	WAP to read a number and display its multiplication table.
+	Enter a number: 2
+	
+	2 x 1 = 2
+	2 x 2 = 4
+	.
+	.
+	.
+	
