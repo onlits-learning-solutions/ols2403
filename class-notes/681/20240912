@@ -1,0 +1,32 @@
+
+1.	WAP to read age of 10 student an array and find the 
+	average age.
+
+2.	WAP to read age of 10 student an array and find the 
+	smallest age.
+
+	Breath-wise
+	
+	#define I 3
+	#defind J 3
+	int mat[I][J] = {{1, 2, 3},{4, 5, 6}, {7, 8, 9}};
+	
+	1 2 3
+	4 5 6
+	7 8 9
+	
+	fact = 1
+	
+	fact = fact * i;
+	
+	Identity property
+	
+	0-9, a=10, b=11, c=12, d=13, e=14, f=15
+	
+	1+3+5+7+9	=	25
+	
+				=	9999
+	
+	Strings
+	
+	
