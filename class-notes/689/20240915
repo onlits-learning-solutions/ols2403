@@ -1,0 +1,14 @@
+
+	Structured Programming
+	Procedure Oriented Programming
+	
+	Function is a self-contained block of code to carry
+	out a specific task.
+	
+	
+	{
+	
+	}
+	
+	
+	printf("Hello world!");

@@ -1,0 +1,13 @@
+
+	int a = 5;			//32-bit
+	char b = '5';		//8-bit
+	char name[10] = "Ashu";
+	
+	string name = "Ashu";	// C++	
+	String name = "Ashu";	// Java
+	
+	In cases of C++ and Java name is object.
+	
+	09/14/97
+	
+	09/14/00	(2000, 1900)
