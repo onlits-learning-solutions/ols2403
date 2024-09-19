@@ -12,3 +12,42 @@
 	
 	
 	printf("Hello world!");
+	
+	Function
+		- Library Function (printf(), scanf(), sqrt())
+		- User-Defined Function
+		
+	Top-Down
+	Bottom-Up
+	
+	- Motherboard (Gigabyte, MSI, Intel)
+	- CPU (Intel, AMD)
+	- RAM (Hynix, Corsair)
+	- SSD (WD, Seagate, Samsung)
+	
+	- Cabinet
+	- Monitor
+	- Keyboard
+	- Mouse
+	
+
+	- Frame - 1
+	- Handle bar - 1
+	- Chain sproket
+	- Chain
+	- Rear wheel assembly
+	- Mud guard 2
+	- Rim - 2
+	- stand
+	- career
+	- tyre
+	- tube
+	
+	Prime Number
+		-	count factors (separate function)
+		-	prime or not (main)
+	
+	
+	
+	
+	
