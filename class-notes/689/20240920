@@ -1,0 +1,19 @@
+
+	Cite two examples for each of the 5 categories of
+	function from C's standard library.
+	
+	printf()
+	scanf()
+	sqrt()
+	gets()
+	getchar()
+	
+	exit()
+	printf("Hello");
+	
+	scanf("%d", &n);
+	
+	n = scanner.nextInt();
+	
+	Simplicity
+	Simplism

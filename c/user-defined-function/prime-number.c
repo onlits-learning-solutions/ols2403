@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
 }
 
 // Function Definition
-int countFactor(int n)
+int countFactor(int n)          //Function Header
 {
     int factor = 0;
     for (int i = 1; i <= n; i++)
