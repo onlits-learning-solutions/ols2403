@@ -5,12 +5,13 @@
 #define MAX 100
 
 void printline(int n);
-void display();
-void insert_end();
+void messagebox(char message[]);
+void display(int arr[], int size);
+void insert_end(int arr[], int *size);
 
 int main(int argc, char const *argv[])
 {
-    int arr[MAX], ch;
+    int arr[MAX], ch, size = 0;
     int const longest_item = strlen("4. Insert at the given index");
     while (1)
     {
@@ -31,13 +32,19 @@ int main(int argc, char const *argv[])
             exit(0);
             break;
         case 1:
-            display();
+            display(arr, size);
             break;
         case 2:
-            insert_end();
+            insert_end(arr, &size);
+            break;
+        case 3:
+            messagebox("Under construction ...");
+            break;
+        case 4:
+            messagebox("Under construction ...");
             break;
         default:
-            printf("\nInvalid option\n");
+            messagebox("Invalid option!");
             break;
         }
     }
@@ -53,12 +60,39 @@ void printline(int n)
     printf("\n");
 }
 
-void display()
+void messagebox(char message[])
 {
+    printf("\n");
+    printline(strlen(message));
+    printf("%s\n", message);
+    printline(strlen(message));
+    printf("\n");
 }
 
-void insert_end()
+void display(int arr[], int size)
 {
+    if(size == 0)
+    {
+        messagebox("Array empty!");
+        return;
+    }
+
+    printf("\nArray Contents\n");
+    printline(strlen("Array empty!"));
+    for (int i = 0; i < size; i++)
+    {
+        printf("%d\n", arr[i]);
+    }
+    printline(strlen("Array empty!"));
+    printf("\n");
+}
+
+void insert_end(int arr[], int *size)
+{
+    printf("\nEnter value: ");
+    scanf("%d", &arr[*size]);
+    (*size)++;
+    messagebox("Value inserted!");
 }
 
 void insert_beginning()
