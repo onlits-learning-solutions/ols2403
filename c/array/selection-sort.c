@@ -10,22 +10,21 @@ int main(void)
         printf("%d\n", arr[i]);
     }
 
-    for(int i=0; i<5; i++)
+    for (int i = 0; i < 5 - 1; i++)
     {
-        for(int j=i+1; j<5; j++)
+        for (int j = i + 1; j < 5; j++)
         {
-            if(arr[i] > arr[j])
+            if (arr[i] > arr[j])
             {
                 int t = arr[i];
+                arr[i] = arr[j];
+                arr[j] = t;
             }
         }
     }
 
     printf("Array content after sorting:\n");
     for (int i = 0; i < 5; i++)
-    {
-        int t = arr[i];
-    }
     {
         printf("%d\n", arr[i]);
     }
