@@ -89,10 +89,7 @@ void display(int arr[], int size)
 
 void insert_end(int arr[], int *size)
 {
-    printf("\nEnter value: ");
-    scanf("%d", &arr[*size]);
-    (*size)++;
-    messagebox("Value inserted!");
+    
 }
 
 void insert_beginning()
