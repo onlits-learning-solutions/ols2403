@@ -6,6 +6,7 @@ struct complex
     float imaginary;
 };
 
+
 int main(void)
 {
     struct complex c;

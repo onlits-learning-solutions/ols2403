@@ -1,0 +1,29 @@
+	1. WAP program to accept a string and find its length (use
+	   library function strlen()).
+	
+	2. WAP program to read a string and find its length without
+	   using any library function.
+	   
+	3. WAP program to read a multi-word string and count the
+	   number of words in it.
+	
+	4. WAP program to read a string and count the occurances
+	   of 'a' in it.
+
+	5. WAP program to read a string and count the occurances
+	   of vowels in it.
+	   
+	6. WAP to read full name of the user and display his/her
+	   initials. (Eg. Anuj Kashyap	-	AK)
+	   
+	7. WAP to read a string and reverse it.
+	
+	8. WAP to read a string and find whether it is a pallindrome
+	   or not.
+
+		madam, malayalam, liril
+
+	Structure
+	
+	Development
+	Production
