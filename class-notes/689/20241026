@@ -1,0 +1,30 @@
+
+	int - datatype specifier (keyword)
+	if - (keyword) - decision making construct
+	for - (keyword) - looping construct
+	
+	Anuj has a laptop.
+	
+	Anuj - Noun
+	has - verb
+	a - article
+	laptop - Noun
+	
+	
+	- Keyword
+
+	Data Type
+		- Primitive/Built-in/Primary - int, char, float, double
+		- Derived - array, pointer, function
+		- User defined - struct, union, enum, typedef
+		
+Supplier	
+	Id
+	Name
+	Gender
+	DOB
+	ContactNo
+	
+	Routine routine
+	
+	File Handling
