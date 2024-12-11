@@ -3,14 +3,14 @@
 int main(void)
 {
     FILE *fp;
-    char quote[100], c;
+    char quote[100], ch;
     fp = fopen("quotes.txt", "w");
     printf("Type a quote: ");
-    while((c=getchar()) != EOF)
+    while((ch=getchar()) != EOF)
     {
-        putc(c, fp);
+        putc(ch, fp);
     }
     fclose(fp);
-    printf("File created");
+    printf("File created!\n");
     return 0;
 }
