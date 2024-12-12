@@ -1,13 +1,4 @@
-#include <stdio.h>
-
-typedef struct book
-{
-    int id;
-    char title[50];
-    char author[50];
-} BOOK;
-
-void addBook(BOOK book);
+#include "lms.h"
 
 void bookMenu()
 {
@@ -16,8 +7,10 @@ void bookMenu()
     {
         int ch;
         printf("\nBook Menu\n");
-        printf("1. Add Book\n");
-        printf("2. Edit Book\n");
+        printf("1. Display Books\n");
+        printf("2. Display Book\n");
+        printf("3. Add Book\n");
+        printf("4. Edit Book\n");
         printf("Enter choice [0 to go back]: ");
         scanf("%d", &ch);
         switch (ch)
@@ -26,9 +19,15 @@ void bookMenu()
             return;
             break;
         case 1:
-            addBook(book);
+            displayBooks();
             break;
         case 2:
+            printf("Under construction...\n");
+            break;
+        case 3:
+            addBook(book);
+            break;
+        case 4:
             printf("Under construction...\n");
             break;
         default:
@@ -48,5 +47,22 @@ void addBook(BOOK book)
     printf("Enter author: ");
     scanf("%[^\n]", book.author);
 
-    fp = fopen("book.csv", "w");
+    fp = fopen("book.csv", "a");
+    fprintf(fp, "%d,%s,%s\n", book.id, book.title, book.author);
+    fclose(fp);
+    printf("Data saved!\n");
+}
+
+void displayBooks()
+{
+    FILE *fp;
+    BOOK book;
+    printf("%-5s%-50s%-50s\n", "Id", "Title", "Author");
+    fp = fopen("book.csv", "r");
+    for (int i = 1; i <= 4; i++)
+    {
+        fscanf(fp, "%d,%[^,],%[^\n]", &book.id, book.title, book.author);
+        printf("%-5d%-50s%-50s\n", book.id, book.title, book.author);
+    }
+    fclose(fp);
 }

@@ -1,7 +1,4 @@
-#include <stdio.h>
-
-void mainMenu();
-void bookMenu();
+#include "lms.h"
 
 int main(void)
 {
