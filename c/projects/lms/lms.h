@@ -11,7 +11,7 @@ typedef struct book
 } BOOK;
 
 void bookMenu();
-void addBook(BOOK book);
+void addBook();
 void displayBooks();
 
 /************ Member ************/

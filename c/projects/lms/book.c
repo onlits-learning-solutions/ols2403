@@ -25,7 +25,7 @@ void bookMenu()
             printf("Under construction...\n");
             break;
         case 3:
-            addBook(book);
+            addBook();
             break;
         case 4:
             printf("Under construction...\n");
@@ -36,8 +36,9 @@ void bookMenu()
     }
 }
 
-void addBook(BOOK book)
+void addBook()
 {
+    BOOK book;
     FILE *fp;
     printf("Add Book\n");
     printf("Enter Id: ");
@@ -59,9 +60,8 @@ void displayBooks()
     BOOK book;
     printf("%-5s%-50s%-50s\n", "Id", "Title", "Author");
     fp = fopen("book.csv", "r");
-    for (int i = 1; i <= 4; i++)
+    while (fscanf(fp, "%d,%[^,],%[^\n]", &book.id, book.title, book.author) != EOF)
     {
-        fscanf(fp, "%d,%[^,],%[^\n]", &book.id, book.title, book.author);
         printf("%-5d%-50s%-50s\n", book.id, book.title, book.author);
     }
     fclose(fp);
