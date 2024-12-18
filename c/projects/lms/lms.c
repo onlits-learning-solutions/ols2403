@@ -26,7 +26,7 @@ void mainMenu()
             bookMenu();
             break;
         case 2:
-            printf("Under construction...\n");
+            memberMenu();
             break;
         default:
             printf("Invalid option!\n");
