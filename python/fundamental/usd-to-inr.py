@@ -1,0 +1,1 @@
+usd = float(input("Enter amount in us dollars: "))
