@@ -1,5 +1,7 @@
 package ols2403.resumebuilder;
 
+import java.util.Scanner;
+
 public class Resume {
     private ContactInformation contactInformation;
     private String summary;
@@ -23,5 +25,17 @@ public class Resume {
 
     public void setSkills(String[] skill) {
         this.skill = skill;
+    }
+
+    public void inputForm() {
+        contactInformation = new ContactInformation();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Create your resume:");
+        System.out.print("Enter your name: ");
+        contactInformation.setName(scanner.nextLine());
+    }
+
+    public void showResume() {
+
     }
 }

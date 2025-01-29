@@ -35,7 +35,7 @@ void memberMenu()
 void addMember()
 {
     MEMBER member;
-    FILE *fp;
+    FILE *fp = NULL;
     fp = fopen("member.csv", "a");
     printf("Enter Id: ");
     scanf("%d%*c", &member.id);
@@ -54,6 +54,11 @@ void displayMembers()
     MEMBER member;
     FILE *fp;
     fp = fopen("member.csv", "r");
+    if(fp == NULL)
+    {
+        printf("\nNo records found!\n");
+        return;
+    }
     printf("%-10s%-20s%-10s%s\n", "Member Id", "Name", "Gender", "Contact No");
     while(fscanf(fp, "%d,%[^,],%c,%s", &member.id, member.name, &member.gender, member.contactNo) != EOF)
     {
