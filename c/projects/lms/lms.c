@@ -15,6 +15,7 @@ void mainMenu()
         printf("\nMain Menu\n");
         printf("1. Book\n");
         printf("2. Member\n");
+        printf("3. Circulation\n");
         printf("Enter choice [0 to exit]: ");
         scanf("%d", &ch);
         switch (ch)
