@@ -29,6 +29,9 @@ void mainMenu()
         case 2:
             memberMenu();
             break;
+        case 3:
+            circulationMenu();
+            break;
         default:
             printf("Invalid option!\n");
         }

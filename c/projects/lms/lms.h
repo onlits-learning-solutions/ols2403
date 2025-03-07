@@ -28,4 +28,15 @@ void memberMenu();
 void addMember();
 void displayMembers();
 
-/************* Book Issue **********/
+/************* Circulation **********/
+
+typedef struct circulation
+{
+    int id;
+    int bookId;
+    int MemberId;
+} CIRCULATION;
+
+void circulationMenu();
+void bookIssue();
+void bookReturn();
