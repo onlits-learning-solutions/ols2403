@@ -1,6 +1,19 @@
 #include <stdio.h>
+#include <time.h>
 
 void mainMenu();
+
+/********* Utility *************/
+typedef struct date
+{
+    int day;
+    int month;
+    int year;
+} DATE;
+
+DATE current_date();
+char* day_name(int day_num);
+char* month_name(int month_num);
 
 /********* Book ***************/
 typedef struct book
