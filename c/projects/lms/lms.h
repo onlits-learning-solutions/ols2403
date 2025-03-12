@@ -25,6 +25,7 @@ typedef struct book
 
 void bookMenu();
 void addBook();
+BOOK getBookById(int id);
 void displayBooks();
 
 /************ Member ************/
@@ -39,6 +40,7 @@ typedef struct member
 
 void memberMenu();
 void addMember();
+MEMBER getMemberById(int id);
 void displayMembers();
 
 /************* Circulation **********/

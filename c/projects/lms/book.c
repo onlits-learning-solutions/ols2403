@@ -54,6 +54,20 @@ void addBook()
     printf("Data saved!\n");
 }
 
+BOOK getBookById(int id)
+{
+    FILE *fp;
+    BOOK book;
+    fp = fopen("book.csv", "r");
+    while (fscanf(fp, "%d,%[^,],%[^\n]", &book.id, book.title, book.author) != EOF)
+    {
+        if (book.id == id)
+            break;
+    }
+    fclose(fp);
+    return book;
+}
+
 void displayBooks()
 {
     FILE *fp;

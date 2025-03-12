@@ -49,6 +49,20 @@ void addMember()
     fclose(fp);
 }
 
+MEMBER getMemberById(int id)
+{
+    FILE *fp;
+    MEMBER member;
+    fp = fopen("member.csv", "r");
+    while(fscanf(fp, "%d,%[^,],%c,%s", &member.id, member.name, &member.gender, member.contactNo) != EOF)
+    {
+        if (member.id == id)
+            break;
+    }
+    fclose(fp);
+    return member;
+}
+
 void displayMembers()
 {
     MEMBER member;
@@ -65,9 +79,4 @@ void displayMembers()
         printf("%-10d%-20s%-10c%s\n", member.id, member.name, member.gender, member.contactNo);
     }
     fclose(fp);
-}
-
-void displayMemberById()
-{
-    
 }
