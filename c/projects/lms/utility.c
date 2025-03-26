@@ -8,8 +8,13 @@ DATE current_date()
     DATE d;
     d.day = ct->tm_mday;
     d.month = ct->tm_mon + 1;
-    d.year = ct->tm_year;
+    d.year = ct->tm_year + 1900;
     return d;
+}
+
+DATE date_add_day(DATE date, int days)
+{
+
 }
 
 char *day_name(int day_num)
@@ -85,14 +90,3 @@ char *month_name(int month_num)
         return "Invalid";
     }
 }
-
-// int main(int argc, char const *argv[])
-// {
-//     DATE today;
-//     today = current_date();
-//     printf("Current date: %d-%d-%d.\n", today.day, today.month, today.year);
-//     printf("%s\n", month_name(today.month));
-//     printf("%s\n", day_name(today.day));
-
-//     return 0;
-// }
