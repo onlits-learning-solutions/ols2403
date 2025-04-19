@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+import java.io.Console;
 
 class ValidatePassword {
 
@@ -29,12 +29,13 @@ class ValidatePassword {
     }
 
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+        Console c = System.console();
         System.out.print("Enter password: ");
-        String password = s.next();
+        char[] buffer = c.readPassword();
+        String password = new String(buffer);
         if (isPasswordValid(password)) {
-            System.out.println("Password is valid"); 
-        }else {
+            System.out.println("Password is valid");
+        } else {
             System.out.println("Password is invalid");
         }
     }
