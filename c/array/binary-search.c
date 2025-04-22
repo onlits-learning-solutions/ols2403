@@ -5,7 +5,7 @@ int main(void)
     int target, lb = 0, ub = 9, mid, found = 0;
     printf("Enter a number to search: ");
     scanf("%d", &target);
-    for (int i = 0; i < 10; i++)
+    while(lb <= ub)
     {
         mid = (lb + ub) / 2;
         if (arr[mid] == target)
