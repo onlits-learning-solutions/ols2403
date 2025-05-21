@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LMS - Book</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Book</h1>
+    <header>
+        <h1>Library Management System</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="book.html">Book</a>
+            <a href="member.html">Member</a>
+            <a href="circulation.html">Circulation</a>
+            <a href="report.html">Report</a>
+            <a href="settings.html">Settings</a>
+            <a href="help.html">Help</a>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <div class="col-2">
+            <div class="col-2-left">
+                <h2>Book Section</h2>
+            </div>
+            <div class="col-2-right">
+                <a href="new-book.html">Add a new book</a>
+            </div>
+        </div>
+        <p>Here you can manage all the books in the library.</p>
+        <table class="master">
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Publisher</th>
+                    <th>Year</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2025 Library Management System. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>

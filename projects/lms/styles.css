@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: blue
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.col-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+table.master {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.master th {
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+}
+
+table.master td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table.master tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.master tr:hover {
+    background-color: #ddd;
+}
+
+form.master {
+    margin: 20px 0;
+}
+
+form.master label {
+    display: block;
+}
+
+form.master input[type="text"],
+form.master input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+form.master button {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
