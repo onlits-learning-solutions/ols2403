@@ -1,3 +1,7 @@
+<?php
+include 'book-script.php';
+$books = getBooks();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +17,7 @@
         <h1>Library Management System</h1>
         <nav>
             <a href="index.html">Home</a>
-            <a href="book.html">Book</a>
+            <a href="book.php">Book</a>
             <a href="member.html">Member</a>
             <a href="circulation.html">Circulation</a>
             <a href="report.html">Report</a>
@@ -44,14 +48,21 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
-                </tr>
+                <?php
+                $i = 0;
+                foreach ($books as $book): ?>
+                    <tr>
+                        <td><?= ++$i ?></td>
+                        <td><?= $book['title']; ?></td>
+                        <td><?= $book['author']; ?></td>
+                        <td><?= $book['publisher']; ?></td>
+                        <td><?= $book['year']; ?></td>
+                        <td>
+                            <a href="edit-book.php?id=<?php echo $book['book_id']; ?>">Edit</a> |
+                            <a href="delete-book.php?id=<?php echo $book['book_id']; ?>">Delete</a>
+                        </td>
+                    </tr>
+                <?php endforeach; ?>
             </tbody>
         </table>
     </main>

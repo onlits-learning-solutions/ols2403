@@ -5,8 +5,6 @@ if (!$connection) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-print_r($_POST);
-
 if(isset($_POST['submit'])) {
     $title = $_POST['title'];
     $author = $_POST['author'];
@@ -16,7 +14,7 @@ if(isset($_POST['submit'])) {
     $query = "INSERT INTO book (title, author, publisher, year) VALUES ('$title', '$author', '$publisher', '$year')";
     
     if (mysqli_query($connection, $query)) {
-        header("Location: book.html");
+        header("Location: book.php");
     } else {
         echo "Error: " . mysqli_error($connection);
     }
