@@ -36,6 +36,7 @@ $books = getBooks();
             </div>
         </div>
         <p>Here you can manage all the books in the library.</p>
+        
         <table class="master">
             <thead>
                 <tr>
@@ -58,8 +59,8 @@ $books = getBooks();
                         <td><?= $book['publisher']; ?></td>
                         <td><?= $book['year']; ?></td>
                         <td>
-                            <a href="edit-book.php?id=<?php echo $book['book_id']; ?>">Edit</a> |
-                            <a href="delete-book.php?id=<?php echo $book['book_id']; ?>">Delete</a>
+                            <a href="edit-book.php?id=<?= $book['book_id']; ?>">Edit</a> |
+                            <a href="delete-book.php?id=<?= $book['book_id']; ?>">Delete</a>
                         </td>
                     </tr>
                 <?php endforeach; ?>
