@@ -53,14 +53,14 @@ $books = getBooks();
                 $i = 0;
                 foreach ($books as $book): ?>
                     <tr>
-                        <td><?= ++$i ?></td>
+                        <td><?= $book['id'] ?></td>
                         <td><?= $book['title']; ?></td>
                         <td><?= $book['author']; ?></td>
                         <td><?= $book['publisher']; ?></td>
                         <td><?= $book['year']; ?></td>
                         <td>
-                            <a href="edit-book.php?id=<?= $book['book_id']; ?>">Edit</a> |
-                            <a href="delete-book.php?id=<?= $book['book_id']; ?>">Delete</a>
+                            <a href="edit-book.php?id=<?= $book['id']; ?>">Edit</a> |
+                            <a href="delete-book.php?id=<?= $book['id']; ?>">Delete</a>
                         </td>
                     </tr>
                 <?php endforeach; ?>

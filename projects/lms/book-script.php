@@ -18,6 +18,30 @@ function getBooks() {
     while ($row = mysqli_fetch_assoc($result)) {
         $books[] = $row;
     }
+
+    mysqli_close($connection);
     
     return $books;
+}
+
+function getBook($id)
+{
+    $connection = mysqli_connect('localhost', 'ols2403', 'ols2403', 'lms_2403');
+
+    if (!$connection) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+
+    $query = "SELECT * FROM book WHERE id = '$id'";
+    $result = mysqli_query($connection, $query);
+    
+    if (!$result) {
+        die("Query failed: " . mysqli_error($connection));
+    }
+      
+    $book = mysqli_fetch_assoc($result);
+    
+    mysqli_close($connection);
+    
+    return $book;
 }
