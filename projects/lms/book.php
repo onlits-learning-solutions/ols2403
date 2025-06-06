@@ -36,7 +36,10 @@ $books = getBooks();
             </div>
         </div>
         <p>Here you can manage all the books in the library.</p>
-        
+
+        <?php if (!$books): ?>
+            <p>No books found. Please add a new book.</p>
+        <?php else: ?>
         <table class="master">
             <thead>
                 <tr>
@@ -66,6 +69,7 @@ $books = getBooks();
                 <?php endforeach; ?>
             </tbody>
         </table>
+        <?php endif; ?>
     </main>
     <footer>
         <p>&copy; 2025 Library Management System. All rights reserved.</p>

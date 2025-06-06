@@ -28,9 +28,9 @@
     </header>
     <main>
         <h2>Add New Book</h2>
-        <form action="add-book.php" method="post" class="master">
-            <label for="bookid">Book ID</label>
-            <input type="text" id="bookid" name="bookid" required readonly value="<?= $id; ?>">
+        <form action="update-book.php" method="post" class="master">
+            <label for="id">Book ID</label>
+            <input type="text" id="id" name="id" required readonly value="<?= $id; ?>">
 
             <label for="title">Title:</label>
             <input type="text" id="title" name="title" required value="<?= $book['title']; ?>">
@@ -44,7 +44,7 @@
             <label for="year">Year:</label>
             <input type="number" id="year" name="year" required value="<?= $book['year']; ?>">
 
-            <button type="submit" name="submit">Add Book</button>
+            <button type="submit" name="submit">Update Book</button>
         </form>
     </main>
     <footer>
