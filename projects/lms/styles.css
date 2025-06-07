@@ -36,7 +36,8 @@ main {
 }
 
 .col-2 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
 }
 
@@ -74,7 +75,9 @@ form.master label {
 }
 
 form.master input[type="text"],
-form.master input[type="number"] {
+form.master input[type="number"],
+form.master input[type="email"],
+form.master input[type="password"] {
     width: 80%;
     padding: 10px;
     margin: 10px 0;

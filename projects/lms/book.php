@@ -1,6 +1,12 @@
 <?php
 include 'book-script.php';
 $books = getBooks();
+
+session_start();
+if (!isset($_SESSION['email'])) {
+    header('Location: index.php');
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +22,7 @@ $books = getBooks();
     <header>
         <h1>Library Management System</h1>
         <nav>
-            <a href="index.html">Home</a>
+            <a href="dashboard.php">Dashboard</a>
             <a href="book.php">Book</a>
             <a href="member.html">Member</a>
             <a href="circulation.html">Circulation</a>
@@ -40,35 +46,35 @@ $books = getBooks();
         <?php if (!$books): ?>
             <p>No books found. Please add a new book.</p>
         <?php else: ?>
-        <table class="master">
-            <thead>
-                <tr>
-                    <th>Book ID</th>
-                    <th>Title</th>
-                    <th>Author</th>
-                    <th>Publisher</th>
-                    <th>Year</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                $i = 0;
-                foreach ($books as $book): ?>
+            <table class="master">
+                <thead>
                     <tr>
-                        <td><?= $book['id'] ?></td>
-                        <td><?= $book['title']; ?></td>
-                        <td><?= $book['author']; ?></td>
-                        <td><?= $book['publisher']; ?></td>
-                        <td><?= $book['year']; ?></td>
-                        <td>
-                            <a href="edit-book.php?id=<?= $book['id']; ?>">Edit</a> |
-                            <a href="delete-book.php?id=<?= $book['id']; ?>">Delete</a>
-                        </td>
+                        <th>Book ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Publisher</th>
+                        <th>Year</th>
+                        <th>Action</th>
                     </tr>
-                <?php endforeach; ?>
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    <?php
+                    $i = 0;
+                    foreach ($books as $book): ?>
+                        <tr>
+                            <td><?= $book['id'] ?></td>
+                            <td><?= $book['title']; ?></td>
+                            <td><?= $book['author']; ?></td>
+                            <td><?= $book['publisher']; ?></td>
+                            <td><?= $book['year']; ?></td>
+                            <td>
+                                <a href="edit-book.php?id=<?= $book['id']; ?>">Edit</a> |
+                                <a href="delete-book.php?id=<?= $book['id']; ?>">Delete</a>
+                            </td>
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
         <?php endif; ?>
     </main>
     <footer>
