@@ -38,7 +38,7 @@ if (!isset($_SESSION['email'])) {
                 <h2>Book Section</h2>
             </div>
             <div class="col-2-right">
-                <a href="new-book.html">Add a new book</a>
+                <a href="new-book.php">Add a new book</a>
             </div>
         </div>
         <p>Here you can manage all the books in the library.</p>

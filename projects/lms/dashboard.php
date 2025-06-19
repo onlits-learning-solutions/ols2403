@@ -4,6 +4,9 @@ if (!isset($_SESSION['email'])) {
     header('Location: index.php');
     exit();
 }
+
+include 'book-script.php';
+$bookCount = bookCount();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,6 +36,25 @@ if (!isset($_SESSION['email'])) {
     <main>
         <h2>Dashboard</h2>
         <p>This is the control panel of your application.</p>
+        <div class="card-container">
+            <div class="card">
+                <h3>Total Books</h3>
+                <p><?php echo $bookCount; ?></p>
+            </div>
+            <div class="card">
+                <h3>Total Members</h3>
+                <p>150</p>
+            </div>
+            <div class="card">
+                <h3>Total Circulations</h3>
+                <p>300</p>
+            </div>
+            <div class="card">
+                <h3>Overdue Books</h3>
+                <p>5</p>
+            </div>
+
+        </div>
     </main>
     <footer>
         <p>&copy; 2023 Library Management System. All rights reserved.</p>

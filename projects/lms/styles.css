@@ -93,3 +93,19 @@ form.master button {
     cursor: pointer;
     margin-top: 10px;
 }
+
+/* ------------------ Dashboard ---------------- */
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid darkgray;
+    padding: 10px;
+    border-radius: 5px;
+}
