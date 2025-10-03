@@ -4,14 +4,17 @@ int main(void)
 {
     int ch;
     NODE *head = NULL;
+    
     do
     {
-        printf("LINKED LIST OPERATIONS\n");
+        printf("\nLINKED LIST OPERATIONS\n");
+        printline(strlen("LINKED LIST OPERATIONS"));
         printf("\nMAIN MENU\n");
+        printline(strlen("MAIN MENU"));
         printf("1. Display(Traverse)\n");
-        printf("2. Insert\n");
-        printf("3. Delete\n");
-        printf("4. Search\n");
+        printf("2. Search\n");
+        printf("3. Insert\n");
+        printf("4. Delete\n");
         printf("5. Sort\n");
         printf("6. Merge\n");
         printf("Enter choice [0 to exit]: ");
@@ -19,10 +22,12 @@ int main(void)
         switch (ch)
         {
         case 0:
-            printf("Bye!\n\n");
+            messagebox("Bye!");
             return 0;
             break;
-        
+        case 1:
+            display(head);
+            break;
         default:
             printf("\nInvalid option\n\n");
             break;
