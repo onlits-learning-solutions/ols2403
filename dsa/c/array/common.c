@@ -27,9 +27,11 @@ void display(int arr[], int size)
         return;
     }
 
-    printf("List contains following elements:\n");
+    printf("\nList contains following elements:\n");
+    printline(strlen("List contains following elements:"));
     for (int i = 0; i < size; i++)
     {
         printf("%d\n", arr[i]);
     }
+    printline(strlen("List contains following elements:"));
 }

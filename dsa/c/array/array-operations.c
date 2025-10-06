@@ -28,6 +28,7 @@ int main(void)
             display(arr, size);
             break;
         case 3:
+            insertend(arr, &size);
             break;
         default:
             messagebox("Invalid option!");
