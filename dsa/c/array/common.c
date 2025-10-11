@@ -1,15 +1,15 @@
 #include "array.h"
 
-void printline(int n)
+void printline(int n) // O(n)
 {
-    for(int i=1; i<=n; i++)
+    for (int i = 1; i <= n; i++)
     {
         printf("-");
     }
     printf("\n");
 }
 
-void messagebox(char *message)
+void messagebox(char *message) // O(1)
 {
     int n = strlen(message);
     printf("\n");
@@ -19,7 +19,7 @@ void messagebox(char *message)
     printf("\n");
 }
 
-void display(int arr[], int size)
+void display(int arr[], int size) // O(1)
 {
     if (size == 0)
     {

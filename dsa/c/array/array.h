@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX 5
+#define MAX 100
 
 // ---------------- common.c ----------------
 void printline(int n);

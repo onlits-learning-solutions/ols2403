@@ -27,6 +27,11 @@ int main(void)
             break;
         case 1:
             display(head);
+            printf("main(): value of head: %p\n", head);
+            break;
+        case 3:
+            insertend(&head);
+            printf("main(): value of head: %p\n", head);
             break;
         default:
             printf("\nInvalid option\n\n");

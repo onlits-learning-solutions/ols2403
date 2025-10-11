@@ -4,8 +4,8 @@
 
 typedef struct node
 {
-    int data;
-    struct node *next;
+    int data;   //4-bytes
+    struct node *next;  //8-bytes
 } NODE;
 
 
@@ -13,3 +13,6 @@ typedef struct node
 void printline(int n);
 void messagebox(char *message);
 void display(NODE *head);
+
+//----------------- insert.c --------------------
+void insertend(NODE *head);

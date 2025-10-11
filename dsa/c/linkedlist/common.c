@@ -1,6 +1,6 @@
 #include "linkedlist.h"
 
-void printline(int n)
+void printline(int n) //O(n)
 {
     for(int i=1; i<=n; i++)
     {
@@ -9,7 +9,7 @@ void printline(int n)
     printf("\n");
 }
 
-void messagebox(char *message)
+void messagebox(char *message) //O(1)
 {
     int n = strlen(message);
     printf("\n");
@@ -19,7 +19,7 @@ void messagebox(char *message)
     printf("\n");
 }
 
-void display(NODE *head)
+void display(NODE *head) // O(?)
 {
     if(head == NULL)
     {

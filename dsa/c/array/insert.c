@@ -1,6 +1,6 @@
 #include "array.h"
 
-void insertend(int arr[], int *size)
+void insertend(int arr[], int *size) // O(1)
 {
     if(*size >= MAX)
     {
