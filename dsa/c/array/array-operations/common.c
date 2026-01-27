@@ -19,6 +19,7 @@ void messagebox(char *message) // O(1)
     printf("\n");
 }
 
+// ----- Array Traversing -------------
 void display(int arr[], int size) // O(1)
 {
     if (size == 0)
