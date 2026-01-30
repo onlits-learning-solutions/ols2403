@@ -9,4 +9,7 @@ void messagebox(char *message);
 void display(int arr[], int size);
 
 // ---------------- insert.c ----------------
+void insertmenu(int arr[], int *size);
 void insertend(int arr[], int *size);
+void insertbeginning(int arr[], int *size);
+void insertmiddle(int arr[], int *size);
