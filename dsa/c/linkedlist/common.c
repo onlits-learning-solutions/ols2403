@@ -1,0 +1,39 @@
+#include "linkedlist.h"
+
+void printline(int n) //O(n)
+{
+    for(int i=1; i<=n; i++)
+    {
+        printf("-");
+    }
+    printf("\n");
+}
+
+void messagebox(char *message) //O(1)
+{
+    int n = strlen(message);
+    printf("\n");
+    printline(n);
+    printf("%s\n", message);
+    printline(n);
+    printf("\n");
+}
+
+void display(NODE *head) // O(?)
+{
+    if(head == NULL)
+    {
+        messagebox("List empty!");
+        return;
+    }
+
+    printf("List contains following elements:\n");
+
+    NODE *itr = head;
+
+    while(itr != NULL)
+    {
+        printf("%d\n", itr->data);
+        itr = itr->next;
+    }
+}
