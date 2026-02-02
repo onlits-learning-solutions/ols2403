@@ -1,4 +1,4 @@
-#include "array.h"
+#include "array.h"  //preprocessor directive (file inclusion)
 void insertmenu(int arr[], int *size)
 {
     int ch;

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX 100
+#define MAX 100     //preprocessor directive (macro substitution)
 
 // ---------------- common.c ----------------
 void printline(int n);
