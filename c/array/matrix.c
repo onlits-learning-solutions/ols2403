@@ -14,5 +14,8 @@ int main(void)
         }
         printf("\n");
     }
+
+    printf("Base address of matrix is %p.\n", &mat[0][0]);
+    printf("Address of element at indices [2][2] is %p.\n", &mat[2][2]);
     return 0;
 }
