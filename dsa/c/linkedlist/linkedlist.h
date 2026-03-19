@@ -1,18 +1,9 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
 typedef struct node
 {
-    int data;   //4-bytes
-    struct node *next;  //8-bytes
+    int data;
+    struct node *next;
 } NODE;
 
-
-//----------------- common.c -------------------
-void printline(int n);
-void messagebox(char *message);
+/* --------------- common.c --------------*/
 void display(NODE *head);
-
-//----------------- insert.c --------------------
-void insertend(NODE *head);
