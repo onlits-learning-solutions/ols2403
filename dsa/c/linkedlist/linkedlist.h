@@ -7,3 +7,4 @@ typedef struct node
 
 /* --------------- common.c --------------*/
 void display(NODE *head);
+void display_organic(NODE *head);

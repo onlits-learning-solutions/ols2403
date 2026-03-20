@@ -2,7 +2,11 @@
 
 int main(void)
 {
-    NODE *head;
+    NODE *head = NULL;
     printf("Learning linked list!\n");
-    display(head);
+    
+    printf("Displaying List Content:\n");
+    display_organic(head);
+
+
 }
