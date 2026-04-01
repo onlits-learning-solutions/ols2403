@@ -14,6 +14,7 @@ void display(NODE *head)
         printf("%d\n", ptr->data);
         ptr = ptr->next;
     }
+    printf("%d nodes\n", count_nodes(head));
 }
 
 void display_organic(NODE *head)
@@ -28,9 +29,19 @@ void display_organic(NODE *head)
     }
 
     printf("NULL\n");
+    printf("%d nodes\n", count_nodes(head));
 }
 
 int count_nodes(NODE *head)
 {
+    int count = 0;
+
+    NODE *ptr = head;
     
+    while(ptr != NULL)
+    {
+        count++;
+        ptr = ptr->next;
+    }
+    return count;
 }
