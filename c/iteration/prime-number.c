@@ -5,7 +5,6 @@ int main(void)
 
     printf("Enter a number: ");
     scanf("%d", &n);
-    printf("The factors of %d are:\n", n);
     for (i = 1; i <= n; i++)
     {
         if (n % i == 0)
