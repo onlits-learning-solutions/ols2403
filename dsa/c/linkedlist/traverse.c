@@ -9,7 +9,7 @@ typedef struct node
 
 void traverse(NODE *start);
 
-int main(void)
+int main(void)      // O(1)
 {
     NODE *start = NULL;
 
@@ -30,7 +30,7 @@ int main(void)
     return 0;
 }
 
-void traverse(NODE *start)
+void traverse(NODE *start)   // O(n)
 {
     NODE *ptr = start;
     while(ptr != NULL) 
