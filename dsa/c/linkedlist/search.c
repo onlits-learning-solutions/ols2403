@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define N 5
+#define N 10
 
 typedef struct node
 {
@@ -9,7 +9,7 @@ typedef struct node
     struct node *next;
 } NODE;
 
-void search(NODE *start);
+NODE *search(NODE *start, int val);
 
 int main(void)
 {
@@ -31,14 +31,35 @@ int main(void)
             while (ptr->next != NULL)
             {
                 ptr = ptr->next;
-                ptr->next = newnode;
             }
+            ptr->next = newnode;
         }
     }
+
+    NODE *ptr = search(start, 60);
+
+    if (ptr == NULL)
+        printf("Value not found!");
+    else
+        printf("Value found at %p.", ptr);
 
     return 0;
 }
 
-void search(NODE *start)
+NODE *search(NODE *start, int val)
 {
+    scanf("%*c");
+    NODE *pos = NULL;
+    NODE *ptr = start;
+
+    while (ptr != NULL)
+    {
+        if (val == ptr->data)
+        {
+            pos = ptr;
+            break;
+        }
+        ptr = ptr->next;
+    }
+    return pos;
 }
