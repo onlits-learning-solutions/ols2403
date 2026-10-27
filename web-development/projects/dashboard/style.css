@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+aside {
+    padding: 10px;
+}
+
+aside a {
+    display: block;
+}

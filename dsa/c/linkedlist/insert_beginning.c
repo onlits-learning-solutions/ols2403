@@ -16,7 +16,7 @@ int main(void)
 {
     NODE *start = NULL;
 
-    for (int i = 1, val = 10; i <= N; i++, val += 10)
+    for (int i = 1, val = 10; i <= N; i++, val += 10)   // val = val + 10
     {
         NODE *newnode = malloc(sizeof(NODE));
         newnode->data = val;
@@ -54,6 +54,7 @@ NODE *insert_beginning(NODE *start, int val)
     newnode->data = val;
     newnode->next = start;
     start = newnode;
+
 }
 
 void display(NODE *start)
